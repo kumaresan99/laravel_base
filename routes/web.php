@@ -19,6 +19,3 @@ Route::get('/', function () {
 Route::post('/', function () {
     return view('welcome');
 });
-Route::post('/update', function () {
-    return view('welcome');
-});
